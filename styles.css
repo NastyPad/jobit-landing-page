@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --yellow-green: #85cb33;
+  --nyanza: #EFFFC8;
+  --olive-drab-7: #3b341f;
+  --opal: #a5cbc3;
+  --smoky-black: #100b00;
+  --ducky-yellow: #ffcc00;
+  --share-tech-mono: 'Share Tech Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
