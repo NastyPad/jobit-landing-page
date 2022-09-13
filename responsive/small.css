@@ -4,6 +4,7 @@
   }
 
   #navbar {
+    width: 100%;
     justify-content: space-between;
   }
 
@@ -11,18 +12,26 @@
     display: none;
   }
 
+  #navbar > h1 {
+    margin-left: 15px;
+  }
+
   #sidenav {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     right: 0;
-    width: 30%;
+    width: 120px;  /* Will be 30% with js*/
     height: 100vh;
     z-index: 10;
     background-color: var(--ducky-yellow);
     transition: all 0.2s ease-in;
+  }
+
+  #sidenav > * {
+    visibility: visible;
   }
 
   #sidenav > button {
@@ -31,6 +40,7 @@
 
   #sidenav > ul {
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 15px;
     text-align: center;

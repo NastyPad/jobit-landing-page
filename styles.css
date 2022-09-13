@@ -25,15 +25,14 @@ button.list-active {
   display: none;
 }
 
-
 #sidenav {
   display: none;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
 }
 
 .intro {
