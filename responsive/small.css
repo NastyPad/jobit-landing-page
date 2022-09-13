@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+  button.list-active {
+    display: block;
+  }
+
+  #navbar {
+    justify-content: space-between;
+  }
+
+  #navbar > .list-container {
+    display: none;
+  }
+
+  #sidenav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    width: 30%;
+    height: 100vh;
+    z-index: 10;
+    background-color: var(--ducky-yellow);
+    transition: all 0.2s ease-in;
+  }
+
+  #sidenav > button {
+    width: 40px;
+  }
+
+  #sidenav > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  #sidenav > ul > li {
+    list-style: none;
+  }
+
+  #sidenav > ul > li > a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: var(--share-tech-mono);
+    font-weight: bold;
+    color: var(--smoky-black);
+  }
+}

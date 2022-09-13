@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Titillium+Web:wght@600&display=swap');
 
 :root {
   --yellow-green: #85cb33;
-  --nyanza: #EFFFC8;
+  --nyanza: #efffc8;
   --olive-drab-7: #3b341f;
   --opal: #a5cbc3;
   --smoky-black: #100b00;
-  --ducky-yellow: #ffcc00;
-  --share-tech-mono: 'Share Tech Mono', monospace;
+  --ducky-yellow: #ffc400;
+  --share-tech-mono: "Share Tech Mono", monospace;
+  --titillium-web: "Titillium Web", sans-serif;
+  --intro-height: calc(100vh - 80px);
+  --doc-height: 100%;
 }
 
 * {
@@ -16,8 +19,60 @@
   box-sizing: border-box;
 }
 
+/* Responsive */
+
+button.list-active {
+  display: none;
+}
+
+
+#sidenav {
+  display: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
+
+}
+
+.intro {
+  height: calc(100vh - 80px);
+}
+
+.intro > .intro-content {
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+
+.intro > .intro-content > .text-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--titillium-web);
+  color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.intro > .intro-content > .text-container > h1 {
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+.intro > .intro-content > .image-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.intro > .intro-content > .image-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
