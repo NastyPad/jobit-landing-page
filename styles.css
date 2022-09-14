@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Titillium+Web:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Titillium+Web:wght@600&display=swap");
 
 :root {
   --yellow-green: #85cb33;
@@ -7,6 +7,7 @@
   --opal: #a5cbc3;
   --smoky-black: #100b00;
   --ducky-yellow: #ffc400;
+  --blue-elegant: #1955AE;
   --share-tech-mono: "Share Tech Mono", monospace;
   --titillium-web: "Titillium Web", sans-serif;
   --intro-height: calc(100vh - 80px);
@@ -30,8 +31,8 @@ button.list-active {
 }
 
 main {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -75,3 +76,93 @@ main {
   object-fit: cover;
 }
 
+#about-us > h1,
+#services > h1,
+#plans > h1 {
+  font-size: 2.4rem;
+}
+
+#about-us > .content > .text-container,
+#about-us > h1,
+#services > h1,
+#plans > h1 {
+  font-family: var(--titillium-web);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about-us > .content > .text-container {
+  text-align: left;
+}
+
+#about-us > .content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+}
+
+#about-us > .content > h1.logo-text {
+  width: 50%;
+}
+
+#about-us > .content > .text-container {
+  width: 50%;
+  padding-right: 10%;
+}
+
+#about-us > .content > h1.logo-text {
+  font-size: 5rem;
+  text-align: center;
+}
+
+#about-us,
+#plans {
+  background-color: #f57c36;
+  background-image: linear-gradient(62deg, #f57c36 0%, #ffc400 100%);
+}
+
+#services {
+  font-family: var(--titillium-web);
+}
+#services > p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#services .image-container {
+  display: flex;
+  justify-content: center;
+}
+
+#services .image-container > img {
+  width: 70px;
+}
+
+#services .content {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+#services .content > article {
+  text-align: center;
+}
+
+img.check {
+  width: 20px;
+}
+
+
+#plans > h1 {
+  color: white;
+}
+
+#plans > .content {
+  display: flex;
+  justify-content: center;
+}
+
+#plans > .content > section {
+  display: flex;
+  gap: 40px;
+}

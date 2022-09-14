@@ -8,14 +8,23 @@
   background-color: var(--ducky-yellow);
 }
 
+
 #navbar > h1,
 #navbar > .list-container > ul > li > a {
   color: var(--smoky-black);
 }
 
+.logo-text,
 #navbar > h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2rem;
+}
+
+.logo-text {
+  /* background-color: var(--ducky-yellow); */
+  width: max-content;
+  padding: 10px 30px;
+  border-radius: 5px; 
 }
 
 #navbar > .list-container > ul {

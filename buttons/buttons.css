@@ -19,3 +19,13 @@ button.list:hover {
   background-color: rgb(24, 24, 24) ;
 }
 
+button.info-button {
+  font-family: var(--titillium-web);
+  font-weight: 300;
+  font-size: 1rem;
+  color: rgb(57, 143, 255);
+  background-color: white;
+  border: 1px solid rgb(57, 143, 255);
+  width: max-content;
+  padding: 6px 22px;
+}

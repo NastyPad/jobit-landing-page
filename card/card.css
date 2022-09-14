@@ -1,0 +1,45 @@
+.card {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 20px 40px;
+  width: 400px;
+  background-color: white;
+}
+
+.card > ul {
+  margin-bottom: 50px;
+}
+
+.card > ul > li {
+  list-style: none;
+}
+
+.card > h3,
+.card > h1 {
+  font-family: var(--titillium-web);
+  color: var(--blue-elegant);
+}
+
+.card > h1 {
+  font-size: 2rem;
+}
+
+.card > h3 {
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+}
+
+.card li {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  font-family: var(--titillium-web);
+  margin-bottom: 10px;
+}
+
+.card li > img {
+  transform: translateY(5px);
+  margin-right: 3px;
+}
+
+

@@ -10,19 +10,20 @@
   <link rel="stylesheet" href="./responsive/small.css">
   <link rel="stylesheet" href="./buttons/buttons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./card/card.css">
   <title>JoBit - Job really close to you </title>
 </head>
 
 <body>
   <main>
     <div id="sidenav" style="width: 0;">
-      <button id="button-close" onclick="closeSideNav()"  class="">
+      <button id="button-close" onclick="closeSideNav()" class="">
         <i class="bi bi-x-lg"></i>
       </button>
     </div>
     <nav id="navbar">
       <h1> JoBit </h1>
-      <button id="button-list" onclick="openSideNav()"  class="list list-active">
+      <button id="button-list" onclick="openSideNav()" class="list list-active">
         <i class="bi bi-list"></i>
       </button>
       <div class="list-container">
@@ -45,7 +46,91 @@
         </div>
       </div>
     </div>
+    <section id="about-us">
+      <h1>About Us</h1>
+      <div class="content">
+        <div class="text-container">
+          <p>We are a group of young entrepreneurs who are focused on improving and helping
+            Peruvian citizens in the workplace. Where Jo-Bag will fulfill the role
+            intermediary between employers and applicants. To ensure the best experience
+            among our users we will provide an automation in the selection process.</p>
+        </div>
+        <h1 class="logo-text"> JoBit </h1>
+      </div>
+    </section>
+    <section id="services">
+      <h1>Services</h1>
+      <p>Our services</p>
+      <div class="content">
+        <article>
+          <div class="image-container">
+            <img src="./images/briefcase.svg" alt="">
+          </div>
+          <h2>Job Finding</h2>
+          <p> Find your ideal job in our plataform.</p>
+        </article>
+        <article>
+          <div class="image-container">
+            <img src="./images/businessman.svg" alt="">
+          </div>
+          <h2>Recruits</h2>
+          <p>Find the best employees for your company</p>
+        </article>
+        <article>
+          <div class="image-container circle">
+            <img src="./images/interview.svg" alt="">
+          </div>
+          <h2>Virtual Interviews</h2>
+          <p>Access direct interviews with the employer</p>
+        </article>
+      </div>
+    </section>
+    <BR></BR>
+    <section id="plans">
+      <h1>Plans</h1>
+      <div class="content">
+        <section>
+          <div class="card">
+            <h1>Basic Applicants</h1>
+            <h3>Free</h3>
+            <ul>
+              <li> <img class="check" src="./images/check.svg" alt=""> Limited job applications.</li>
+              <li><img class="check" src="./images/check.svg" alt="">Time limit on the creation of the personal
+                presentation
+                video.</li>
+              <li><img class="check" src="./images/check.svg" alt="">
+                Limited job applications.
+                Time limit on the creation of the personal presentation video.
+                Curriculum modification limit.
+              </li>
+            </ul>
+            <button class="info-button">
+              <span>More info</span>
+            </button>
+          </div>
+          <div class="card">
+            <h1>Basic Applicants</h1>
+            <h3>Free</h3>
+            <ul>
+              <li> <img class="check" src="./images/check.svg" alt=""> Limited job applications.</li>
+              <li><img class="check" src="./images/check.svg" alt="">Time limit on the creation of the personal
+                presentation
+                video.</li>
+              <li><img class="check" src="./images/check.svg" alt="">
+                Limited job applications.
+                Time limit on the creation of the personal presentation video.
+                Curriculum modification limit.
+              </li>
+            </ul>
+            <button class="info-button">
+              <span>More info</span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </section>
   </main>
 </body>
 <script src="./nav/nav.js"></script>
+
 </html>
