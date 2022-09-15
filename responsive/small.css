@@ -81,4 +81,8 @@
     padding: 0;
     text-align: center;
   }
+
+  .logo-text {
+    padding: 0;
+  }
 }
