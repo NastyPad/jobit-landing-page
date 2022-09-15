@@ -83,6 +83,6 @@
   }
 
   .logo-text {
-    padding: 0;
+     padding: 0; /*Why this is not changing? */
   }
 }
