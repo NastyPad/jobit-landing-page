@@ -66,4 +66,19 @@
     flex-direction: column;
     gap: 30px;
   }
+
+  #about-us > .content,
+  #services > .content
+  {
+    flex-direction: column;
+  }
+
+  #about-us > .content {
+    align-items: center;
+  }
+  
+  #about-us > .content > .text-container {
+    padding: 0;
+    text-align: center;
+  }
 }
